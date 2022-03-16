@@ -1,4 +1,5 @@
 public abstract class Persona {
+    //prova
 
     //atributs
     private String nom;
