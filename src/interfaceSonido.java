@@ -1,5 +1,5 @@
 package activitat3;
 
-public class interfaceSonido {
-    sonido ();
+public interface interfaceSonido {
+    public void sonido();
 }
