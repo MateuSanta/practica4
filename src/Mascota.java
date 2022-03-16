@@ -25,6 +25,11 @@ public abstract class Mascota implements interfaceSonido{
         this.edad = edad;
     }
     
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return "nombre = " + nombre + " edad = " +edad;
+    }
      
     
 }

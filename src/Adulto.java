@@ -24,4 +24,10 @@ public class Adulto extends Persona {
 
          " te una edad de  " + getEdad () + " el nombre de nss es "+ this.nss + " i la seva direcciÃ³ es "+this.dir); 
     }
+
+    @Override
+    public String toString() {
+        
+        return super.toString()+ "nss = " + this.nss + "dir = " + this.dir;
+    }
 }

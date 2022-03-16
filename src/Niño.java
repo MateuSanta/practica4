@@ -19,10 +19,11 @@ public class Niño extends Persona { //Heredam el constructor de Persona(extends
     public void setColegi(String colegi){ this.colegi = colegi;}
     public void setJuguete(Juguete juguete){this.juguete = juguete;};
 
-    public void mostrarNin() {
-        System.out.println ("Nin li diven: " + getNom()  + " El dni es " +  getDni() +
+    public String toString() {
+         return "Nin li diven: " + getNom()  + " El dni es " +  getDni() +
          " te una edad de  " + getEdad () + " i va a al colegi "+ this.colegi + " la jugueta: \n"
-         + juguete.toString()); 
+         + juguete.toString(); 
     }
+    
     
 }

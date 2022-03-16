@@ -13,4 +13,9 @@ public class Gato extends Mascota {
         System.out.print("El gato hace miau");
     }
 
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return super.toString() + "raza = " +raza;
+    }
 }

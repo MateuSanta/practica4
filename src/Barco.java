@@ -29,4 +29,10 @@ public class Barco implements interfaceSonido {
         System.out.print("El motor suena...");
     }
     
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return  "nombre = " + this.nombre + "fecha construccion = " + fechaConstruccion + " numero camarotes = " + numCamarotes +
+        "motor = " + this.motor;
+    }
 }

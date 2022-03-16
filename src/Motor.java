@@ -17,4 +17,10 @@ public class Motor {
     public void setFabricante(String fabricante) {this.fabricante = fabricante;}
     public void setPotencia(String potencia) {this.potencia = potencia;}
     public void setCodigo(int codigo) {this.codigo = codigo;}
+
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return "fabricante = "+ this.fabricante+" potencia = " + this.potencia +"codigo = " + this.codigo;
+    }
 }
