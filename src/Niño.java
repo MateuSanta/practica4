@@ -1,6 +1,8 @@
 package activitat3;
 
-
+/**
+ * Clase Niño subclase Persona
+ */
 public class Niño extends Persona { //Heredam el constructor de Persona(extends)
     
     //atributs

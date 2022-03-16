@@ -1,5 +1,6 @@
 package activitat3;
 
+
 public class Motor {
     private String fabricante = "", potencia = "";
     private int codigo;

@@ -1,12 +1,22 @@
 package activitat3;
 
+
+/**
+ * Clase adulto subclase de persona
+ * @author Mateu i Marc
+ */
 public class Adulto extends Persona {
     
-    //Atributs
+
     private int nss;
     private String dir;
 
-    //Constructor
+    /**
+     * Constructor completo clase adulto
+     * @param nom nombre
+     * @param dni dni
+     * @param edad edad
+     */
     public Adulto( String nom,  String dni,int edad){
         super(nom,dni,edad);
         this.nss = nss;
@@ -14,17 +24,19 @@ public class Adulto extends Persona {
 
     }
 
-    //Metodos
+    /**
+     * Setter de adulto
+     * @param nss
+     * @param dir
+     */
     public void setAdult(int nss, String dir){
         this.nss = nss;
         this.dir = dir;
     }
-    public void mostrarAdult() {
-        System.out.println ("Adult li diven: " + getNom()  + " El dni es " +  getDni() +
 
-         " te una edad de  " + getEdad () + " el nombre de nss es "+ this.nss + " i la seva direcciÃ³ es "+this.dir); 
-    }
-
+    /**
+     * ToString clase adulto
+     */
     @Override
     public String toString() {
         

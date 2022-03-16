@@ -1,5 +1,9 @@
 package activitat3;
 
+/**
+ * Clase Gato subclasse mascota
+ 
+ */
 public class Gato extends Mascota {
     String raza = "";
 

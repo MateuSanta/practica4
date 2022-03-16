@@ -1,6 +1,8 @@
 package activitat3;
 import java.util.Date;
 
+
+
 public class Barco implements interfaceSonido {
     private String nombre = "";
     private Date fechaConstruccion;
