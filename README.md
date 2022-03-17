@@ -1,23 +1,6 @@
 
 
-<style>
-mark{
-    font-size:4em;
-    background: transparent;
-    color:  black;
-       
-}
-
-</style>
-
-
-
-
-
-
-<body>
-
-<mark> PRACTICA 4 </mark>
+# PRÁCTICA 4
 
 ```mermaid
     graph LR;
@@ -128,7 +111,6 @@ Cuando vemos que todo esta correcto cambiamos a la rama master y la actualizamos
 
 ![](gitlog.PNG)
 
-</body>
 
 
 
